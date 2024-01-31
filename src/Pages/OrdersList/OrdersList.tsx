@@ -29,7 +29,8 @@ const OrdersList = () => {
 
             const orders: Order[] = await response.json()
 
-            // todo:
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
             setOrders(orders["units"])
             setIsMock(false)
 

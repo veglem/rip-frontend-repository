@@ -9,20 +9,20 @@ export const iOrdersMock:Order[] = [
         name: "Приказ №1",
         status: 1,
         description: "Описание приказа №1",
-        image: "",
+        imgUrl: "",
     },
     {
         id: 2,
         name: "Приказ №2",
         status: 1,
         description: "Описание приказа №2",
-        image: ""
+        imgUrl: ""
     },
     {
         id: 3,
         name: "Приказ №3",
         status: 1,
         description: "Описание приказа №3",
-        image: ""
+        imgUrl: ""
     },
 ]

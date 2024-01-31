@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import {FaChevronRight} from "react-icons/fa6";
 import {FaHome} from "react-icons/fa";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 const Breadcrumbs = ({ selectedOrder, setSelectedOrder }) => {
 
     const location = useLocation()

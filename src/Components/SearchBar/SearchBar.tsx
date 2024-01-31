@@ -1,6 +1,8 @@
 import "./SearchBar.sass"
 import {FaSearch} from "react-icons/fa";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 const SearchBar = ({ query, setQuery }) => {
 
     const handleChange = (value: string) => {
